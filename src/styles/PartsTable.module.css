@@ -1,0 +1,51 @@
+.PartsTableContainer {
+  margin: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.tableTitleAndDownloadAllButton {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  border-radius: 4px;
+  padding: 10px 16px;
+  background-color: #ffffff;
+  border: 1px solid #d0d3d9;
+}
+
+table {
+  border-bottom: 0.5px solid #D0D3D9;
+  height: 100%;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: collapse;
+  border-spacing: 1px;
+  text-align: left;
+}
+
+th {
+  border-bottom: 0.5px solid #D0D3D9;
+  color: #667085;
+  padding: 5px;
+}
+
+td {
+  border-bottom: 0.5px solid #D0D3D9;
+  background-color: #ffffff;
+  color: #000000;
+  padding: 5px;
+}
+
+.tablePaginationFooterContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

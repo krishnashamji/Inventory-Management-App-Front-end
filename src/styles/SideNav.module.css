@@ -1,0 +1,23 @@
+header {
+  padding: 24px;
+  height: 100vh;
+  background-color: #ffffff;
+  border: 1px solid #f0f1f3;
+}
+
+nav {
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+
+nav div img {
+    margin-bottom: 32px;
+}
+
+a {
+  padding: 16px;
+  color: #00a8c9;
+  text-decoration: none;
+}
